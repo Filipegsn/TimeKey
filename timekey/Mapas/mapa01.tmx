@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" name="mountain_landscape_23" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="mountain_landscape_23.png" width="512" height="512"/>
+  <terraintypes>
+   <terrain name="Grass" tile="79"/>
+   <terrain name="Stone1" tile="28"/>
+   <terrain name="Stone2" tile="76"/>
+  </terraintypes>
+  <tile id="0">
+   <properties>
+    <property name="obstacle" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11" terrain="0,0,0,1"/>
+  <tile id="12" terrain="0,0,1,1"/>
+  <tile id="13" terrain="0,0,1,0"/>
+  <tile id="27" terrain="0,1,0,1"/>
+  <tile id="28" terrain="1,1,1,1"/>
+  <tile id="29" terrain="1,0,1,0"/>
+  <tile id="43" terrain="0,1,0,0"/>
+  <tile id="44" terrain="1,1,0,0"/>
+  <tile id="45" terrain="1,0,0,0"/>
+  <tile id="59" terrain="1,1,1,2"/>
+  <tile id="60" terrain="1,1,2,2"/>
+  <tile id="61" terrain="1,1,2,1"/>
+  <tile id="75" terrain="1,2,1,2"/>
+  <tile id="76" terrain="2,2,2,2"/>
+  <tile id="77" terrain="2,1,2,1"/>
+  <tile id="78" terrain="0,0,0,0"/>
+  <tile id="79" terrain="0,0,0,0"/>
+  <tile id="91" terrain="1,2,1,1"/>
+  <tile id="92" terrain="2,2,1,1"/>
+  <tile id="93" terrain="2,1,1,1"/>
+  <tile id="94" terrain="0,0,0,0"/>
+  <tile id="95" terrain="0,0,0,0"/>
+  <tile id="107" terrain="1,1,1,"/>
+  <tile id="108" terrain="1,1,,"/>
+  <tile id="109" terrain="1,1,,1"/>
+  <tile id="110" terrain="0,1,1,1"/>
+  <tile id="111" terrain="1,0,1,1"/>
+  <tile id="123" terrain="1,,1,"/>
+  <tile id="125" terrain=",1,,1"/>
+  <tile id="126" terrain="1,1,0,1"/>
+  <tile id="127" terrain="1,1,1,0"/>
+  <tile id="139" terrain="1,,1,1"/>
+  <tile id="140" terrain=",,1,1"/>
+  <tile id="141" terrain=",1,1,1"/>
+  <tile id="142" terrain="0,,,"/>
+  <tile id="143" terrain=",0,,"/>
+  <tile id="155" terrain="0,0,0,"/>
+  <tile id="156" terrain="0,0,,"/>
+  <tile id="157" terrain="0,0,,0"/>
+  <tile id="158" terrain=",,0,"/>
+  <tile id="159" terrain=",,,0"/>
+  <tile id="167">
+   <properties>
+    <property name="door" value="1"/>
+    <property name="doorx" value="9"/>
+    <property name="doory" value="14"/>
+   </properties>
+  </tile>
+  <tile id="171" terrain="0,,0,"/>
+  <tile id="173" terrain=",0,,0"/>
+  <tile id="187" terrain="0,,0,0"/>
+  <tile id="188" terrain=",,0,0"/>
+  <tile id="189" terrain=",0,0,0"/>
+ </tileset>
+ <layer id="1" name="Terreno" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECu2a/1XbMBSFGYAyQdsJgAmSTACUAZLUG8AGzei99zTvHFU48q/IceD74x7Lkh09vfs9OTG83tzcvCJyAAMwAAMwAAMwAAMwAAMwAAMwAAMwAAOjGWiUO6vrHUufa7o+Y8z4rWL71kN3PdYwZv6l3fNb6/x1wbV+19wraV3QRmM/paXlbko8pZw3F1yr/XiSngt60dhQP6i7cfzW8qOt7lxnaS1+xrqbUrO+t6Yfed25ztK+MXU3db1Lv99+bKVdQXuNDd2v2nzGj+497F65fkj0R+0f0iHp8/ijNIStNp/tK/UxPI/2Y2g95F7Zj5Xk722bY9vHrRS1aH+mzpPPu4TzW62r9BviTuNpnKXr33St/Xjv+MzSfB7z50QtxD7lY+rROXxP17WUdsqieUxlJnMGfb1zUVttfqR9nj+PbSk5nRKH8xvrfFY7lZnM1xx+HDT2UEl+Dm2lnbQ/tuMYffjxb98KP3KfpjCR3xtzrOTFWtpIbvtoH6JdM4Y8prnOvfZSfbxr3Ht6KJ4RNXPhmJz3rbST9pJjdL26P9o1Y5gr//k8XX54/W2qmQvHtJLWR210DA/c7z21bS/N13aN511+HLT29DkRvzFq+5HWrHO/lfZS9F+7H34XbF7yd5P2w2vdtcjrz/Pu610vef85WcxjchxRoxFrW2znjKH2Z4UPjdaWznWv85T/vP2YXT+HH10xRYx5bOm6lty2F43kGnE7zsfEPIcfY+K6tnvsgf0IT2L/GroO/Ph/fxmav7brwxePhT+N2uFZ2z3Rhx/n9cM5d27jGH74vDn2l2oHP6b5kdZC8B+5d/5TD6Lfx6iH/Igfp3OT5+rUeZpft8OjtN/33krfOvSm8drfd0+t47P053lvlFMr35eC/fiuXzrW/P3xWfKeryPybT8se5Bfk56HHwddF9/xTx2v9bt/ut6526kH4U0phvAD9svclnJ4zjH8WIYP4Sl+4EewwPEjC9THx5xckhP8wI9L8rf0uakP6mPpjM4R36n3VG/6Xe53JO9S+h7rTudzxPVV5/C+tJLWPbTRNfxer8uj/XiSnnvoBT+q7w34UZf3ofsufuDHUGa+0vWuj62066E9z4/qz4++/28Wf4vib0/L2t++0t7BWmEPBmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABmAABqYx8BcA72+mQJwAAA==
+  </data>
+ </layer>
+ <layer id="2" name="Objetos" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECu3XR07DQBgG0JyBcgHKBSgXoFyAcgHuCkiwpq/pa/qGL4rEhshMZBIb/Cx9BHnGU569+KfXcxEgQIAAAQIECBAgQIAAAQIECBAgQIAAgb8rMJWlTyczyezf3ca/WPledjGXzCcLyWLSv9ePa/ICffelZDlZSVYT7yMIDV5rmXs92Ug2G1yHqQcCW/nZTnaS3cEtfwkQIECAAAECBAgQIDCywFGeOB75KQ+MS+AyA1+Na/B/Ou559nVRsbc63/hDxn2sGFvTd4G73Lr/fvvrTp1v/D2jfHyN5J8Sgdd0eqvo6BuvwGmgyTfeALopOyHwU63QCYQWbfKnWqFFS+3EUobVCnXq5y6g7WeTB8nhhDZbp36e0BIbneYks58mZxNahfq5Gvo6zTfJbXW3X2tVP1dTPqX5OXmp7qaVAIFCgWHnitK6QH1ViDxCt2HnitK6QH01AnRh12HnitK6QH1ViFyzW2ldoL6qCe1xAgQIECBAoLMCzn3tevXOfe16H8597Xofzn3teh9WQ4AAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEmhD4BCWkOf5AnAAA
+  </data>
+ </layer>
+ <layer id="3" name="Colisao" width="100" height="100" opacity="0.94">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECu3YUU6DQBSGUfTB7n8XLlNI/BNC6Eyb2uGC56EZhVLwfodWvU3TdPMwAwYYYIABBhhggAEGGGCAAQYYYIABBhhggIETG/iYr315+H/3sTNIh71Vm/FtvuZ74vP3sW2ix/gey8y3PXQ4pkPmnh7fcxufIce2SBOrDgwwwAADDDDAAANnNJC/uc947Ve8Zj2efx/pzay3v+XolWNbr3vlfb2Z9fa3ZvPKsa3XvfK+3sx6+688m4o/mx7PfwZU7Oia6nV0b9Vqokf9Hhq1G2U+yzriPT/nG3GuM54j89FjjMeeET1qdEin0T1yXmstB3r8XY/cU+uZZtuyrrdvv87zttt9355baz57M02HrPeO3zv23nNtf6zR3kyzTY/HZvhua3rU6PDuzl5fZwYYYIABBo4zkN+3NDiuwXr2etTokCZ66BEL1loW9NCDAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhj4vwZ+AEFwezlAnAAA
+  </data>
+ </layer>
+</map>
