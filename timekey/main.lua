@@ -27,8 +27,8 @@ end
 
 function love.load()
   loader.path = "Mapas/"
-  map = loader.load("mapa_intro.tmx") --definição mapa
-  tileLayer = map.layers["Colisão true da true"]
+  map = loader.load("mapa_tribo.tmx") --definição mapa
+  tileLayer = map.layers["Colisão"]
   map.useSpriteBatch = true
   LoadCharacter()
 end
